@@ -1,0 +1,7 @@
+IIC write return code: 0
+IIC write return code: 0
+IIC write return code: 0
+Raw X,Y: 128 131 Buttons: 119
+Raw X,Y: 128 131 Buttons: 119
+Raw X,Y: 128 131 Buttons: 119
+
