@@ -1,19 +1,15 @@
-// Wire Master Reader
-// by Nicholas Zambetti <http://www.zambetti.com>
+// Wii Nunchuck as USB HID mouse with Leonardo
+// http https://sites.google.com/view/RandomProjects
 
-// Demonstrates use of the Wire library
-// Reads data from an I2C/TWI slave device
-// Refer to the "Wire Slave Sender" example for use with this
+// Created 25 January  2017
 
-// Created 29 March 2006
-
-// This example code is in the public domain.
+// MIT license
 
 #include <Wire.h>
 
 void setup()
 {
-  Wire.begin();        // join i2c bus (address optional for master)
+  Wire.begin();        // join i2c bus as master
   
   delay(250);
   
